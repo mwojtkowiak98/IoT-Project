@@ -5,12 +5,19 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              Title="Summary Page"
-             x:Class="FoodOrderApp.Views.OrderSummaryPage">
+             x:Class="FoodOrderApp.Views.OrderSummaryPage"
+             BackgroundImage="fdappbg.png">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Your Order has been placed!"
+                   TextColor="White"
+                    VerticalOptions="EndAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
+            <Button x:Name= "BtnLogout" Text = "Logout"
+                    Command="{Binding Logout}"
+                    Clicked="BtnLogout_Clicked"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

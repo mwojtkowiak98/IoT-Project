@@ -16,5 +16,10 @@ namespace FoodOrderApp.Views
         {
             InitializeComponent();
         }
+
+        private void BtnLogout_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
+        }
     }
 }

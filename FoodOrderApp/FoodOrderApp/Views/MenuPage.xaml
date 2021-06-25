@@ -3,14 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
              x:Class="FoodOrderApp.Views.MenuPage"  
              Title="Menu Page"  
-             NavigationPage.HasBackButton="False">
+             NavigationPage.HasBackButton="False"
+             BackgroundImage="fdappbg.png">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"  
-                VerticalOptions="CenterAndExpand"   
-                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name = "DBdata" Text="fdfdfdf"
+                   TextColor="White"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+            <Label x:Name = "Product1" Text="P1"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Padding="20,10,5,10"
+                   HorizontalOptions="StartAndExpand" />
+            <Label x:Name = "Product1D" Text="P1D"
+                   TextColor="White"
+                   Padding="20,10,5,10"
+                   HorizontalOptions="StartAndExpand" />
+            <Label x:Name = "Price1" Text=""
+                   TextColor="White"
+                   Padding="20,10,5,10"
+                   HorizontalOptions="StartAndExpand" />
+            <Button x:Name= "BtnAddP1" Text = "ADD"
+                    Command="{Binding BtnP1}"
+                    Clicked="BtnAddP1_Clicked"
+                    VerticalOptions="StartAndExpand"/>
+            <Label x:Name = "Product2" Text="P2"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Padding="20,10,5,10"
+                   HorizontalOptions="StartAndExpand" />
+            <Label x:Name = "Product2D" Text="P2D"
+                   TextColor="White" 
+                   Padding="20,10,5,10"
+                   HorizontalOptions="StartAndExpand" />
+            <Label x:Name = "Price2" Text=""
+                   TextColor="White"
+                   Padding="20,10,5,10"
+                   HorizontalOptions="StartAndExpand" />
+            <Button x:Name= "BtnAddP2" Text = "ADD"
+                    Command="{Binding BtnP1}"
+                    Clicked="BtnAddP2_Clicked"
+                    VerticalOptions="StartAndExpand"/>
+            <Label x:Name = "FullPrice" Text="0"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="CenterAndExpand" />
             <Button x:Name= "BtnNext" Text = "Next"
-                    Command="{Binding BtnNext}"/>
+                    Command="{Binding BtnNext}"
+                    Clicked="BtnNext_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>  

@@ -1,13 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
-             x:Class="FoodOrderApp.Views.LoginPage">
+             x:Class="FoodOrderApp.Views.LoginPage"
+             Title ="Login Page"
+             BackgroundImage="fdappbg.png">
     <ContentPage.Content>
         <StackLayout>
             <Entry x:Name = "Email" Placeholder = "Email" Text="{Binding Email}"
+                   TextColor="White"
                    HeightRequest = "40"
                    Keyboard = "Email"/>
             <Entry x:Name = "Password" Text="{Binding Password}" Placeholder = "Password"
+                   TextColor="White"
                    HeightRequest = "40"
                    IsPassword = "True"/>
             <Button x:Name= "loginbtn" Text = "Login "
@@ -15,7 +19,8 @@
                     HorizontalOptions = "FillAndExpand"/>
             <Button x:Name= "registerbtn" Text = "Register "
                     Command="{Binding RegisterCommand}"
-                    HorizontalOptions = "FillAndExpand"/>
+                    HorizontalOptions = "FillAndExpand"
+                    Clicked="registerbtn_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

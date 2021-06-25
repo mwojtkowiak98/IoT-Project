@@ -5,12 +5,22 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              Title="Order and Address"
              mc:Ignorable="d"
-             x:Class="FoodOrderApp.Views.OrderAddressPage">
+             x:Class="FoodOrderApp.Views.OrderAddressPage"
+             BackgroundImage="fdappbg.png">
     <ContentPage.Content>
         <StackLayout>
-            <Label x:Name = "GetCurrentLocation1" Text="{Binding GetCurrentLocation}"
-                   VerticalOptions="CenterAndExpand" 
+            <Label x:Name = "LocationPageLabel" Text="This is Your location from GPS: Would you like to change it?"
+                   TextColor="White"
+                   VerticalOptions="EndAndExpand" 
                    HorizontalOptions="CenterAndExpand" />
+            <Entry x:Name = "GetCurrentLocation1" Text=""
+                   PlaceholderColor="Wheat"
+                   TextColor="Wheat"
+                   VerticalOptions="StartAndExpand" 
+                   HorizontalOptions="CenterAndExpand" />
+            <Button x:Name= "BtnAddressNext" Text = "Next"
+                    Command="{Binding BtnAddressNext}"
+                    Clicked="BtnAddressNext_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

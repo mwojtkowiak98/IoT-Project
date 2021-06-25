@@ -15,12 +15,13 @@ namespace FoodOrderApp.Views
     {
         public OrderAddressPage()
         {
+            GetCurrentLocation();
             InitializeComponent();
         }
 
         CancellationTokenSource cts;
 
-        private async Task GetCurrentLocation(object sender, EventArgs e)
+        async Task GetCurrentLocation()
         {
             try
             {
@@ -30,7 +31,7 @@ namespace FoodOrderApp.Views
 
                 if (location != null)
                 {
-                    GetCurrentLocation1.Text = ($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
+                    GetCurrentLocation1.Text = ($"Latitude: {location.Latitude}, Longitude: {location.Longitude}");
                 }
             }
             catch (FeatureNotSupportedException fnsEx)
@@ -58,5 +59,9 @@ namespace FoodOrderApp.Views
             base.OnDisappearing();
         }
 
+        private void BtnAddressNext_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new OrderSummaryPage());
+        }
     }
 }

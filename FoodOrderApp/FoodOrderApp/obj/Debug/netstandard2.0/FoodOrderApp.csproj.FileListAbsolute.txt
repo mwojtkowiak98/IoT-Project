@@ -5,8 +5,6 @@ C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\bin\Debug\net
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.csprojAssemblyReference.cache
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.AssemblyInfoInputs.cache
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.AssemblyInfo.cs
-C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.csproj.CoreCompileInputs.cache
-C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.dll
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\ref\FoodOrderApp.dll
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.pdb
@@ -15,3 +13,10 @@ C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\net
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\Views\OrderAddressPage.xaml.g.cs
 C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\Views\OrderSummaryPage.xaml.g.cs
+C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\bin\Debug\netstandard2.0\Xamarin.Android.Support.Compat.dll
+C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.csproj.CopyComplete
+C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\FoodOrderApp.csproj.CoreCompileInputs.cache
+C:\Users\xeant\source\repos\FoodOrderApp\FoodOrderApp\FoodOrderApp\obj\Debug\netstandard2.0\XamlC.stamp
